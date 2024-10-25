@@ -1,0 +1,85 @@
+/* Dracula Theme for Hexo
+  -------------------------------------*/
+  :root {
+    --hl-color: #f8f8f2;          /* 代码框字体顔色 */
+    --hl-bg: #282a36;             /* 代码框背景色 */
+    --hltools-bg: #44475a;        /* 代码框顶部工具栏背景色 */
+    --hltools-color: #f8f8f2;     /* 代码框顶部工具栏字体顔色 */
+    --hlnumber-bg: #282a36;       /* 代码框行数背景色 */
+    --hlnumber-color: #6272a4;    /* 代码框行数字体顔色 */
+    --hlscrollbar-bg: #44475a;    /* 代码框滚动条顔色 */
+    --hlexpand-bg: #44475a;       /* 代码框底部展开背景色 */
+  }
+  
+  /* Comments */
+  .hljs-comment,
+  .hljs-quote {
+    color: #6272a4;
+  }
+  
+  /* Red */
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-tag,
+  .hljs-name,
+  .hljs-selector-id,
+  .hljs-selector-class,
+  .hljs-regexp,
+  .hljs-meta {
+    color: #ff5555;
+  }
+  
+  /* Orange */
+  .hljs-number,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-literal,
+  .hljs-type,
+  .hljs-params,
+  .hljs-deletion,
+  .hljs-link {
+    color: #ffb86c;
+  }
+  
+  /* Yellow */
+  .hljs-title,
+  .hljs-section,
+  .hljs-attribute {
+    color: #f1fa8c;
+  }
+  
+  /* Green */
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-bullet,
+  .hljs-addition {
+    color: #50fa7b;
+  }
+  
+  /* Purple */
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-function {
+    color: #ff79c6;
+  }
+  
+  /* Cyan */
+  .hljs-class {
+    color: #8be9fd;
+  }
+  
+  #article-container figure.highlight .hljs {
+    display: block;
+    overflow-x: auto;
+    background: var(--hl-bg);
+    color: var(--hl-color);
+    padding: 0.5em;
+  }
+  
+  .hljs-emphasis {
+    font-style: italic;
+  }
+  
+  .hljs-strong {
+    font-weight: bold;
+  }

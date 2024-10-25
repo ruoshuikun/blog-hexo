@@ -1194,6 +1194,8 @@ css_prefix: true
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
+    # - <link rel="stylesheet" href="/assets/css/dracula.css">
+    # - <link rel="stylesheet" href="/self/Kimbiedark.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
