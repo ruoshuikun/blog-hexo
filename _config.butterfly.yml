@@ -22,9 +22,9 @@ menu:
 
 code_blocks:
   # 代码块主题: darker / pale night / light / ocean / false
-  theme: darker
+  theme: pale night
   # 是否使用 Mac 风格
-  macStyle: false
+  macStyle: true
   # 代码块高度限制（单位: px）
   height_limit: false
   # 是否自动换行
@@ -50,12 +50,12 @@ social:
 # --------------------------------------
 
 # 网站的 favicon 图标
-favicon: /img/favicon.png
+favicon: /assets/img/favicon.png
 
 # 头像设置
 avatar:
   # 头像图片链接
-  img: /img/avatar.jpg
+  img: /assets/img/avatar.jpg
   # img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
   # 是否启用头像效果
   effect: false
